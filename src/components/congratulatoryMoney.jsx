@@ -105,13 +105,9 @@ const CongratulatoryMoney = () => {
         plain
         style={{ marginTop: 0, marginBottom: 32 }}
       >
-        <Title>축하의 마음을 전하세요</Title>
+        <Title>축하의 마음을 담아 전해 보세요</Title>
       </Divider>
       <Image src={Flower} />
-
-      <Content data-aos="fade-up">
-        축하의 마음을 담아 전해 보세요.
-      </Content>
 
       <ButtonWrap>
         <ContactButton data-aos="fade-up" onClick={() => setGroomVisible(true)}>
