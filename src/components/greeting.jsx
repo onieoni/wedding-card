@@ -61,25 +61,19 @@ const Greeting = () => {
       <Content data-aos="fade-up">
         두 사람이
         <br />
-        <br />
         한 사람보다 나음은
-        <br />
         <br />
         저희가 수고함으로
         <br />
-        <br />
         좋은 상을 얻을 것임이라
-        <br />
-        <br />
-         
         <br />
         <br />
         전도서4:9
       </Content>
       <GroomBride data-aos="fade-up">
-        {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 장남 {GROOM_NAME}
+        {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 아들 {GROOM_NAME}
         <br />
-        {BRIDE_FATHER_NAME} · {BRIDE_MOTHER_NAME}의 장녀 {BRIDE_NAME}
+        {BRIDE_FATHER_NAME} · {BRIDE_MOTHER_NAME}의 딸 {BRIDE_NAME}
       </GroomBride>
     </Wrapper>
   );

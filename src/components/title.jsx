@@ -45,7 +45,7 @@ const GroomBride = styled.p`
 `;
 
 const Schedule = styled.p`
-  font-size: 1.06rem;
+  font-size: 0.9rem;
   opacity: 0.65;
   margin-bottom: 24px;
 `;

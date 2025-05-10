@@ -13,8 +13,6 @@ import GalleryPhoto7 from "../assets/7.webp";
 import GalleryPhoto8 from "../assets/8.webp";
 import GalleryPhoto9 from "../assets/9.webp";
 import GalleryPhoto10 from "../assets/10.webp";
-import GalleryPhoto11 from "../assets/11.webp";
-import GalleryPhoto12 from "../assets/12.webp";
 
 const Wrapper = styled.div`
   padding-top: 42px;
@@ -71,14 +69,6 @@ const images = [
   {
     original: GalleryPhoto10,
     thumbnail: GalleryPhoto10,
-  },
-  {
-    original: GalleryPhoto11,
-    thumbnail: GalleryPhoto11,
-  },
-  {
-    original: GalleryPhoto12,
-    thumbnail: GalleryPhoto12,
   },
 ];
 

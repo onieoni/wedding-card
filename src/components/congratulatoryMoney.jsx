@@ -76,12 +76,30 @@ const Image = styled.img`
   padding-bottom: 42px;
 `;
 
+const NoticeBox = styled.div`
+  margin-top: 32px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  color: #444;
+  line-height: 1.6;
+  font-size: 0.875rem;
+  width: 100%;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+`;
+
+
 const CongratulatoryMoney = () => {
   const [groomVisible, setGroomVisible] = useState(false);
   const [brideVisible, setBrideVisible] = useState(false);
 
   return (
     <Wrapper>
+      
       <Divider
         data-aos="fade-up"
         plain
@@ -90,8 +108,9 @@ const CongratulatoryMoney = () => {
         <Title>축하의 마음을 전하세요</Title>
       </Divider>
       <Image src={Flower} />
+
       <Content data-aos="fade-up">
-        축하의 마음을 담아 축의금을 전달해 보세요.
+        축하의 마음을 담아 전해 보세요.
       </Content>
 
       <ButtonWrap>
@@ -188,7 +207,7 @@ const CongratulatoryMoney = () => {
           </CopyToClipboard>
         </div>
         <div style={{ marginTop: 24, marginBottom: 24 }}>
-          <b>모 :{BRIDE_MOTHER_NAME}</b>
+          <b>모 : {BRIDE_MOTHER_NAME}</b>
           <Divider type="vertical" />
           <CopyToClipboard text={BRIDE_MOTHER_ACCOUNT_NUMBER}>
             <Button
@@ -214,6 +233,20 @@ const CongratulatoryMoney = () => {
           </CopyToClipboard>
         </div>
       </Modal>
+
+      
+      
+      <Title>INFORMATION</Title>
+      <NoticeBox data-aos="fade-up">
+        <strong>ATM 기기 안내</strong>
+        <br />
+        <br />
+        주변엔 ATM기기가 없습니다.
+        <br />
+        이점 양해 부탁드립니다.
+      </NoticeBox>
+
+
     </Wrapper>
   );
 };

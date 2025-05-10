@@ -25,7 +25,7 @@ const Image = styled.img`
 `;
 
 const Content = styled.p`
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   line-height: 1.75;
   opacity: 0.75;
   width: 100%;
@@ -107,9 +107,12 @@ const Location = () => {
         <br />
         르한스(구. 한스갤러리)
         <br />
+        TEL. 02-941-1142
+        <br />
+        <br />
+        <br />
         <br />
         <Title>셔틀버스 이용안내</Title>
-        <br />
         <br />
         한성대입구역 6번출구 50M앞 마을버스 정류장
         <br />
@@ -128,8 +131,8 @@ const Location = () => {
         <br />
         ** 제 2주차장 이용 시 셔틀버스 상시운행
         <br />
-        <Title>대중교통 안내</Title>
         <br />
+        <Title>대중교통 안내</Title>
         <br />
         1. 4호선 한성대 입구역 6번 출구 →
         <br />
