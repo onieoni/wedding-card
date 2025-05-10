@@ -7,6 +7,7 @@ export const WEDDING_DATE = "2025년 06월 14일, 토요일 12시 00분";
 export const WEDDING_LOCATION = "르한스(구. 한스갤러리)";
 
 export const GROOM_NAME = "이승호";
+export const GROOM_ACCOUNT_NUMBER = "신한은행 110-333-437140";
 export const GROOM_FATHER_NAME = "이명원";
 export const GROOM_FATHER_ACCOUNT_NUMBER = "농협은행 891-12-241521";
 export const GROOM_MOTHER_NAME = "송은정";

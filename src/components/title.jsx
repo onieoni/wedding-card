@@ -7,6 +7,7 @@ import {
   BRIDE_NAME,
 } from "../../config.js";
 import BackgroundVideo from "../assets/BackgroundVideo.mp4";
+import MainImage from "../assets/main_top.webp";
 import GroovePaper from "../assets/GroovePaper.png";
 
 const Layout = styled.div`
@@ -29,6 +30,15 @@ const TitleWrapper = styled.div`
 
 const VideoBackground = styled.video`
   width: 100%;
+`;
+
+const ImageBackground = styled.img`
+  width: 35%;
+  display: block;
+  margin-top: 16px;
+  border-radius: 0;
+  border-radius: 8px;
+  margin: 16px auto 0;
 `;
 
 const WeddingInvitation = styled.p`
@@ -63,9 +73,7 @@ const Title = () => {
           {WEDDING_LOCATION}
         </Schedule>
       </TitleWrapper>
-      <VideoBackground autoPlay loop muted playsInline={true}>
-        <source src={BackgroundVideo} type="video/mp4" />
-      </VideoBackground>
+      <ImageBackground src={MainImage} alt="결혼식 메인 이미지" />
     </Layout>
   );
 };
