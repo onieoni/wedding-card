@@ -33,7 +33,7 @@ const VideoBackground = styled.video`
 `;
 
 const ImageBackground = styled.img`
-  width: 35%;
+  width: 50%;
   display: block;
   margin-top: 16px;
   border-radius: 0;
