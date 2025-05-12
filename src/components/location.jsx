@@ -110,8 +110,6 @@ const Location = () => {
         TEL. 02-941-1142
         <br />
         <br />
-        <br />
-        <br />
         <Title>셔틀버스 이용안내</Title>
         <br />
         한성대입구역 6번출구 50M앞 마을버스 정류장
