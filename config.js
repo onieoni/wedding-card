@@ -3,7 +3,7 @@ export const KAKAOTALK_API_TOKEN = "fce305b18e6265fe53cd04adba1e611d";
 export const KAKAOTALK_SHARE_IMAGE =
   "https://github.com/onieoni/wedding-card/blob/master/public/images/11.jpg?raw=true";
 
-export const WEDDING_DATE = "2025년 06월 14일, 토요일  12시 00분";
+export const WEDDING_DATE = "2025년 06월 14일, 토요일   12시 00분";
 export const WEDDING_LOCATION = "르한스(구. 한스갤러리)";
 
 export const GROOM_NAME = "이승호";
